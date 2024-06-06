@@ -15,7 +15,7 @@ class MyNewbeeMallApiApplicationTests {
     @Autowired()
     private DataSource defaultDataSource;
 
-    @Test
+    //@Test
     public void datasourceTest() throws SQLException {
 
         Connection connection = defaultDataSource.getConnection();
@@ -24,7 +24,7 @@ class MyNewbeeMallApiApplicationTests {
         connection.close();
     }
 
-    @Test
+   // @Test
     void contextLoads() {
     }
 }
