@@ -56,11 +56,12 @@
 			<version>2.5.0</version>
 		</dependency>
 
-		<dependency> <!--spring doc-->
+		<dependency> <!-- http://server:port/context-path/v3/api-docs -->
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
 			<version>2.5.0</version>
 		</dependency>
+
 
 	</dependencies>
 
