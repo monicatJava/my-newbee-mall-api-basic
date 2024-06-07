@@ -21,7 +21,7 @@ class MyNewbeeMallApiApplicationTests {
         Connection connection = defaultDataSource.getConnection();
         System.out.println("獲取連線");
         System.out.println(connection != null);
-        connection.close();
+       // connection.close();
     }
 
    // @Test
